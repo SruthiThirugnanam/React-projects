@@ -3,12 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <title>My React Projects</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>My React Projects</h1>
-  <ul>
-    <li><a href="Project-1/index.html">Project 1</a></li>
-    <li><a href="Project-2/index.html">Project 2</a></li>
-  </ul>
+  <header>
+    <h1>My React Projects</h1>
+    <p>Click on any project below to preview its output:</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Project 1</h2>
+      <div class="btn-group">
+        <a href="Project-1/index.html" class="btn btn-view-project">View Project</a>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Project 2</h2>
+      <div class="btn-group">
+        <a href="Project-2/index.html" class="btn btn-view-project">View Project</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
