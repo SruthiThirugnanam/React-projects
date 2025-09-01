@@ -27,13 +27,14 @@
     "homepage": "https://SruthiThirugnanam.github.io/my-react-app"
 
   }
-}
-
-"scripts": {
+    "scripts": {
   "start": "react-scripts start",
   "build": "react-scripts build",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
 }
+}
+
+
 
 
