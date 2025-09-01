@@ -68,8 +68,6 @@ export const QRCode = () => {
         </button>
       </div>
 
-      <p className="footer">Designed By Sruthi</p>
-
       {/* 👇 GitHub Button */}
       <a
         href="https://github.com/sruthithirugnanam/React-projects"
@@ -90,5 +88,6 @@ export const QRCode = () => {
         🔗 View Source Code on GitHub
       </a>
     </div>
+    <p className="footer">Designed By Sruthi</p>
   );
 };
