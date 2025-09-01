@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://SruthiThirugnanam.github.io/my-react-app/Project-1",
+  "homepage": "https://SruthiThirugnanam.github.io/React-projects/Project-1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
