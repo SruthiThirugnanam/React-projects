@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // use relative path to assets
+  base: './',  // ⚠️ Important: use relative base path
 })
