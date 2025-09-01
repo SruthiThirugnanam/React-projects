@@ -1,6 +1,7 @@
 {
   "name": "adviceapp",
   "private": true,
+  "homepage": "https://SruthiThirugnanam.github.io/my-react-app/project1",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
