@@ -87,7 +87,9 @@ export const QRCode = () => {
       >
         🔗 View Source Code on GitHub
       </a>
-    </div>
+      {/* ✅ This line must stay INSIDE the return block */}
     <p className="footer">Designed By Sruthi</p>
-  );
+  </div>
+    </div>
+    );
 };
