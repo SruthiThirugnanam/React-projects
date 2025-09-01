@@ -70,7 +70,7 @@ export const QRCode = () => {
 
       {/* 👇 GitHub Button */}
       <a
-        href="https://github.com/sruthithirugnanam/React-projects/Project-1/"
+        href="https://github.com/SruthiThirugnanam/React-projects/tree/main/Project-1/"
         target="_blank"
         rel="noopener noreferrer"
         className="github-button"
