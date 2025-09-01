@@ -76,7 +76,7 @@ export const QRCode = () => {
         className="github-button"
         style={{
           display: "inline-block",
-          marginTop: "40px",
+          marginTop: "80px",
           padding: "10px 20px",
           backgroundColor: "#24292e",
           color: "#ffffff",
