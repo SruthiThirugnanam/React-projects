@@ -1,90 +1,84 @@
-/* Global reset */
-* {
+/* Body and font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f6fa;
   color: #333;
 }
 
-/* Header */
+/* Header styling */
 header {
-  background-color: #2f3640;
+  background-color: #333;
   color: white;
+  padding: 20px 0;
   text-align: center;
-  padding: 40px 20px;
 }
 
 header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  margin: 0;
+  font-size: 2em;
 }
 
 header p {
-  font-size: 1.2rem;
+  margin: 5px 0 0 0;
+  font-size: 1.1em;
+  font-weight: 400;
 }
 
-/* Projects Container */
-.projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-  max-width: 1200px;
-  margin: 50px auto;
+/* Container for cards */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
   padding: 0 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
-/* Individual Project Card */
-.project-card {
+/* Individual card */
+.card {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 25px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-  text-align: center;
-  transition: transform 0.3s ease;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  flex: 1;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
-}
-
-.project-card h2 {
+/* Project title */
+.card h2 {
+  font-size: 1.4em;
   margin-bottom: 20px;
-  font-size: 1.4rem;
-  color: #2f3640;
+  text-align: center;
 }
 
-/* Buttons */
-.btn {
-  display: block;
+/* Buttons container */
+.btn-group {
   width: 100%;
-  padding: 12px;
-  margin: 10px 0;
-  border-radius: 6px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  color: white;
 }
 
-/* View Project Button */
-.btn-view {
+/* Button base */
+.btn {
+  display: inline-block;
+  padding: 12px 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+/* View Project button */
+.btn-view-project {
   background-color: #007bff;
 }
 
-.btn-view:hover {
+.btn-view-project:hover {
   background-color: #0056b3;
-}
-
-/* View Source Button */
-.btn-source {
-  background-color: #006400;
-}
-
-.btn-source:hover {
-  background-color: #004d00;
 }
